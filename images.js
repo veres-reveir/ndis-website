@@ -12,7 +12,7 @@ var IMAGES = {
   pathSee: "images/smile.webp",
   pathBook: "images/worker.webp",
   pathMeet: "images/worker.webp",
-  outcomes: "images/founder.webp",
+  outcomes: "images/outcomes-couple.jpg",
   filter: "images/older-kitchen.webp",
   proof1: "images/conversation.webp",
   proof2: "images/circle.webp",
