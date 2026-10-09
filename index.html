@@ -366,27 +366,26 @@ body.lock{overflow:hidden}
   .fcol .c{aspect-ratio:4/3}
 }
 @media(max-width:760px){
-  section{scroll-margin-top:168px}
+  section{scroll-margin-top:24px}
   h1{font-size:34px;margin:0 0 6px}
   .eye{margin-bottom:4px}
   .lede{font-size:18px}
   .support{margin-top:6px}
   .cta{margin-top:8px}
-  .hero{padding-top:4px;padding-bottom:40px}
-  .top{min-height:40px;height:40px;padding:0;justify-content:flex-start;font-size:13px;overflow:hidden}
-  .top .desk{display:none}
-  .top .mob{display:block;width:100%}
-  .top .track{display:flex;gap:20px;width:max-content;align-items:center;animation:slide 16s linear infinite;padding-left:20px}
-  .hd .wrap{flex-wrap:wrap;gap:8px;min-height:0;padding-top:6px;padding-bottom:6px}
+  .hero{padding-top:20px;padding-bottom:40px}
+  .bar{position:static}
+  .top{min-height:0;height:auto;padding:14px 20px;justify-content:center;text-align:center;font-size:15px;line-height:1.45;overflow:visible}
+  .top .desk{display:block}
+  .top .desk a{display:none}
+  .top .mob{display:none}
+  .hd{display:none}
   .hd .btn,.cta .btn,.strip .btn{width:100%}
   .floatbtn{right:12px;bottom:calc(var(--dock) + 10px + env(safe-area-inset-bottom,0px));min-height:44px;padding:4px 4px 4px 14px;font-size:14px;gap:8px}
   .floatbtn .chip{width:30px;height:30px}
   :root{--dock:40px}
   .dock .track{font-size:14px;gap:16px}
   .tiles,.vids,.steps,.stats .wrap,.pair{grid-template-columns:1fr}
-  #proof .vids{display:flex;grid-template-columns:none;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;margin-top:24px;padding-bottom:8px}
-  #proof .vid{flex:0 0 78%;scroll-snap-align:center}
-  #proof .vid video{width:100%;height:auto;aspect-ratio:3/4;max-height:none;object-fit:cover;object-position:center 18%}
+  #proof .vids{gap:16px;margin-top:24px}
   .sysintro{margin-top:40px}
   .sysintro h2{max-width:none}
   .tile h3{font-size:18px}
@@ -811,7 +810,6 @@ body.lock{overflow:hidden}
     <div class="links">
       <a href="#privacy-modal" data-legal="privacy-modal">Privacy</a>
       <a href="#terms-modal" data-legal="terms-modal">Terms</a>
-      <a href="mailto:xeonaqvi@gmail.com">Contact</a>
     </div>
     <p class="fine">&copy; 2026 THE PROJECT STARLIT. All rights reserved. Results vary from business to business. We do not guarantee specific results, revenue, enquiries or other business outcomes. Testimonials and examples are from specific businesses and may not be typical.</p>
   </div>
